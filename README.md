@@ -5,9 +5,20 @@ A Python program that ranks web pages by importance using **Google’s PageRank 
 ---
 
 ## 🧠 Overview
-<img width="528" height="182" alt="image" src="https://github.com/user-attachments/assets/d228337f-25e7-4984-aff7-800216d9ff78" />
+### Example Output
 
-
+```
+PageRank Results from Sampling (n = 10000)
+  1.html: 0.2223
+  2.html: 0.4303
+  3.html: 0.2145
+  4.html: 0.1329
+PageRank Results from Iteration
+  1.html: 0.2202
+  2.html: 0.4289
+  3.html: 0.2202
+  4.html: 0.1307
+```
 This project simulates how modern search engines like **Google** evaluate the importance of web pages.
 Each page’s rank reflects the probability that a random internet surfer would visit it at any given time — a probabilistic measure of “importance” based on the structure of the web itself.
 
